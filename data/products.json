@@ -1,0 +1,730 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AMD Ryzen 9 7950X",
+      "vendor": "AMD",
+      "category": "Desktop CPU",
+      "release_date": "2022-09-27",
+      "architecture": "Zen 4",
+      "cores": 16,
+      "threads": 32,
+      "clock": 4.5,
+      "boost_clock": 5.7,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 5,
+      "TDP": 170,
+      "memory_support": "DDR5-5200",
+      "price_MSRP": 699,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 2100,
+        "multi_core": 38000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "AM5",
+        "cache": "80MB",
+        "pcie": "5.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.amd.com/en/products/cpu/amd-ryzen-9-7950x"
+      ],
+      "description": "AMD's flagship desktop processor with Zen 4 architecture"
+    },
+    {
+      "id": 2,
+      "name": "Intel Core i9-13900K",
+      "vendor": "Intel",
+      "category": "Desktop CPU",
+      "release_date": "2022-10-20",
+      "architecture": "Raptor Lake",
+      "cores": 24,
+      "threads": 32,
+      "clock": 3.0,
+      "boost_clock": 5.8,
+      "GPU": "UHD Graphics 770",
+      "NPU": "N/A",
+      "process_node_nm": 7,
+      "TDP": 125,
+      "memory_support": "DDR5-5600",
+      "price_MSRP": 589,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 2200,
+        "multi_core": 41000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "LGA 1700",
+        "cache": "36MB",
+        "pcie": "5.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.intel.com/content/www/us/en/products/sku/230491/intel-core-i913900k-processor-36m-cache-up-to-5-80-ghz/specifications.html"
+      ],
+      "description": "Intel's high-performance desktop processor with hybrid architecture"
+    },
+    {
+      "id": 3,
+      "name": "Apple M2 Pro",
+      "vendor": "Apple",
+      "category": "Laptop CPU",
+      "release_date": "2023-01-17",
+      "architecture": "Apple Silicon",
+      "cores": 12,
+      "threads": 12,
+      "clock": 3.5,
+      "boost_clock": 3.7,
+      "GPU": "19-core",
+      "NPU": "16-core",
+      "process_node_nm": 5,
+      "TDP": 30,
+      "memory_support": "LPDDR5-6400",
+      "price_MSRP": 1299,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 1950,
+        "multi_core": 15000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "Integrated",
+        "cache": "24MB",
+        "pcie": "4.0",
+        "memory_channels": 2,
+        "neural_engine": "16-core"
+      },
+      "sources": [
+        "https://www.apple.com/newsroom/2023/01/apple-unveils-new-macbook-pro-with-m2-pro-and-m2-max/"
+      ],
+      "description": "Apple's professional-grade processor for MacBook Pro"
+    },
+    {
+      "id": 4,
+      "name": "Qualcomm Snapdragon 8 Gen 2",
+      "vendor": "Qualcomm",
+      "category": "Mobile CPU",
+      "release_date": "2022-11-15",
+      "architecture": "ARM",
+      "cores": 8,
+      "threads": 8,
+      "clock": 3.2,
+      "boost_clock": 3.36,
+      "GPU": "Adreno 740",
+      "NPU": "Hexagon",
+      "process_node_nm": 4,
+      "TDP": 5,
+      "memory_support": "LPDDR5X-4200",
+      "price_MSRP": 160,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 1500,
+        "multi_core": 5000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "Integrated",
+        "cache": "8MB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "modem": "X70 5G"
+      },
+      "sources": [
+        "https://www.qualcomm.com/products/mobile/snapdragon-8-series-mobile-platforms/snapdragon-8-gen-2-mobile-platform"
+      ],
+      "description": "Qualcomm's flagship mobile processor with advanced AI capabilities"
+    },
+    {
+      "id": 5,
+      "name": "ESP32-S3",
+      "vendor": "ESP32",
+      "category": "Microcontroller",
+      "release_date": "2021-09-01",
+      "architecture": "XTensa LX7",
+      "cores": 2,
+      "threads": 2,
+      "clock": 2.4,
+      "boost_clock": 2.4,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 40,
+      "TDP": 0.5,
+      "memory_support": "SRAM, Flash",
+      "price_MSRP": 3,
+      "status": "Released",
+      "benchmarks": {
+        "coremark": 800
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "QFN",
+        "cache": "512KB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "wireless": "WiFi, Bluetooth 5.0"
+      },
+      "sources": [
+        "https://www.espressif.com/en/products/socs/esp32-s3"
+      ],
+      "description": "Versatile microcontroller with WiFi and Bluetooth connectivity"
+    },
+    {
+      "id": 6,
+      "name": "Raspberry Pi 5",
+      "vendor": "Raspberry Pi",
+      "category": "Dev Board",
+      "release_date": "2023-10-23",
+      "architecture": "ARM",
+      "cores": 4,
+      "threads": 4,
+      "clock": 2.4,
+      "boost_clock": 2.4,
+      "GPU": "VideoCore VII",
+      "NPU": "N/A",
+      "process_node_nm": 16,
+      "TDP": 12,
+      "memory_support": "LPDDR4X-4267",
+      "price_MSRP": 60,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 450,
+        "multi_core": 1200
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "Broadcom BCM2712",
+        "cache": "2MB",
+        "pcie": "2.0",
+        "memory_channels": 1,
+        "gpio": "40-pin"
+      },
+      "sources": [
+        "https://www.raspberrypi.com/products/raspberry-pi-5/"
+      ],
+      "description": "The latest single-board computer from Raspberry Pi Foundation"
+    },
+    {
+      "id": 7,
+      "name": "Arduino Uno R4",
+      "vendor": "Arduino",
+      "category": "Dev Board",
+      "release_date": "2023-06-15",
+      "architecture": "ARM",
+      "cores": 1,
+      "threads": 1,
+      "clock": 0.048,
+      "boost_clock": 0.048,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 90,
+      "TDP": 0.2,
+      "memory_support": "SRAM, Flash",
+      "price_MSRP": 25,
+      "status": "Released",
+      "benchmarks": {},
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "ATmega4809",
+        "cache": "N/A",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "gpio": "14 digital, 6 analog"
+      },
+      "sources": [
+        "https://store.arduino.cc/products/arduino-uno-r4-wifi"
+      ],
+      "description": "Popular development board for electronics projects"
+    },
+    {
+      "id": 8,
+      "name": "AMD Ryzen 7 7840U",
+      "vendor": "AMD",
+      "category": "Laptop CPU",
+      "release_date": "2023-05-03",
+      "architecture": "Zen 4",
+      "cores": 8,
+      "threads": 16,
+      "clock": 3.3,
+      "boost_clock": 5.1,
+      "GPU": "Radeon 780M",
+      "NPU": "Ryzen AI",
+      "process_node_nm": 4,
+      "TDP": 28,
+      "memory_support": "LPDDR5X-7500",
+      "price_MSRP": 450,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 1800,
+        "multi_core": 12000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "FP8",
+        "cache": "24MB",
+        "pcie": "4.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.amd.com/en/products/apu/amd-ryzen-7-7840u"
+      ],
+      "description": "AMD's efficient laptop processor with integrated RDNA 3 graphics"
+    },
+    {
+      "id": 9,
+      "name": "Intel Core i5-13600K",
+      "vendor": "Intel",
+      "category": "Desktop CPU",
+      "release_date": "2022-10-20",
+      "architecture": "Raptor Lake",
+      "cores": 14,
+      "threads": 20,
+      "clock": 3.5,
+      "boost_clock": 5.1,
+      "GPU": "UHD Graphics 770",
+      "NPU": "N/A",
+      "process_node_nm": 7,
+      "TDP": 125,
+      "memory_support": "DDR5-5600",
+      "price_MSRP": 319,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 1900,
+        "multi_core": 18000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "LGA 1700",
+        "cache": "24MB",
+        "pcie": "5.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.intel.com/content/www/us/en/products/sku/230500/intel-core-i513600k-processor-24m-cache-up-to-5-10-ghz/specifications.html"
+      ],
+      "description": "Mid-range desktop processor with excellent price-to-performance ratio"
+    },
+    {
+      "id": 10,
+      "name": "AMD Ryzen 5 7600X",
+      "vendor": "AMD",
+      "category": "Desktop CPU",
+      "release_date": "2022-09-27",
+      "architecture": "Zen 4",
+      "cores": 6,
+      "threads": 12,
+      "clock": 4.7,
+      "boost_clock": 5.3,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 5,
+      "TDP": 105,
+      "memory_support": "DDR5-5200",
+      "price_MSRP": 299,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 2000,
+        "multi_core": 12000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "AM5",
+        "cache": "38MB",
+        "pcie": "5.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.amd.com/en/products/cpu/amd-ryzen-5-7600x"
+      ],
+      "description": "Entry-level Zen 4 processor with strong single-core performance"
+    },
+    {
+      "id": 11,
+      "name": "Intel Core i7-13700H",
+      "vendor": "Intel",
+      "category": "Laptop CPU",
+      "release_date": "2023-01-01",
+      "architecture": "Raptor Lake",
+      "cores": 14,
+      "threads": 20,
+      "clock": 2.4,
+      "boost_clock": 5.0,
+      "GPU": "Iris Xe Graphics",
+      "NPU": "N/A",
+      "process_node_nm": 7,
+      "TDP": 45,
+      "memory_support": "DDR5-5200",
+      "price_MSRP": 457,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 1800,
+        "multi_core": 15000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "BGA1744",
+        "cache": "24MB",
+        "pcie": "4.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i713700h-processor-24m-cache-up-to-5-00-ghz/specifications.html"
+      ],
+      "description": "Intel's high-performance mobile processor for gaming laptops"
+    },
+    {
+      "id": 12,
+      "name": "AMD Ryzen 9 7945HX",
+      "vendor": "AMD",
+      "category": "Laptop CPU",
+      "release_date": "2023-01-01",
+      "architecture": "Zen 4",
+      "cores": 16,
+      "threads": 32,
+      "clock": 2.5,
+      "boost_clock": 5.4,
+      "GPU": "Radeon 610M",
+      "NPU": "N/A",
+      "process_node_nm": 5,
+      "TDP": 55,
+      "memory_support": "DDR5-5200",
+      "price_MSRP": 650,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 2000,
+        "multi_core": 30000
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "FL1",
+        "cache": "64MB",
+        "pcie": "5.0",
+        "memory_channels": 2
+      },
+      "sources": [
+        "https://www.amd.com/en/products/apu/amd-ryzen-9-7945hx"
+      ],
+      "description": "AMD's flagship mobile processor for high-performance laptops"
+    },
+    {
+      "id": 13,
+      "name": "Apple A17 Pro",
+      "vendor": "Apple",
+      "category": "Mobile CPU",
+      "release_date": "2023-09-12",
+      "architecture": "Apple Silicon",
+      "cores": 6,
+      "threads": 6,
+      "clock": 3.78,
+      "boost_clock": 3.78,
+      "GPU": "6-core",
+      "NPU": "16-core",
+      "process_node_nm": 3,
+      "TDP": 8,
+      "memory_support": "LPDDR5-6400",
+      "price_MSRP": 0,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 2100,
+        "multi_core": 5500
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "Integrated",
+        "cache": "8MB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "neural_engine": "16-core"
+      },
+      "sources": [
+        "https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/"
+      ],
+      "description": "Apple's most powerful mobile processor for iPhone 15 Pro"
+    },
+    {
+      "id": 14,
+      "name": "Qualcomm Snapdragon 7+ Gen 2",
+      "vendor": "Qualcomm",
+      "category": "Mobile CPU",
+      "release_date": "2023-03-17",
+      "architecture": "ARM",
+      "cores": 8,
+      "threads": 8,
+      "clock": 2.91,
+      "boost_clock": 2.91,
+      "GPU": "Adreno 725",
+      "NPU": "Hexagon",
+      "process_node_nm": 4,
+      "TDP": 4,
+      "memory_support": "LPDDR5-3200",
+      "price_MSRP": 120,
+      "status": "Released",
+      "benchmarks": {
+        "single_core": 1200,
+        "multi_core": 3700
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "Integrated",
+        "cache": "6MB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "modem": "X62 5G"
+      },
+      "sources": [
+        "https://www.qualcomm.com/products/mobile/snapdragon-7-series-mobile-platforms/snapdragon-7-plus-gen-2-mobile-platform"
+      ],
+      "description": "Qualcomm's premium mid-range mobile processor"
+    },
+    {
+      "id": 15,
+      "name": "ESP32-C6",
+      "vendor": "ESP32",
+      "category": "Microcontroller",
+      "release_date": "2023-08-01",
+      "architecture": "RISC-V",
+      "cores": 1,
+      "threads": 1,
+      "clock": 1.6,
+      "boost_clock": 1.6,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 40,
+      "TDP": 0.3,
+      "memory_support": "SRAM, Flash",
+      "price_MSRP": 2,
+      "status": "Released",
+      "benchmarks": {
+        "coremark": 650
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "QFN",
+        "cache": "320KB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "wireless": "WiFi 6, Bluetooth 5.0, Zigbee"
+      },
+      "sources": [
+        "https://www.espressif.com/en/products/socs/esp32-c6"
+      ],
+      "description": "ESP32 series microcontroller with WiFi 6 and multi-protocol support"
+    },
+    {
+      "id": 16,
+      "name": "Arduino Nano ESP32",
+      "vendor": "Arduino",
+      "category": "Dev Board",
+      "release_date": "2023-07-01",
+      "architecture": "XTensa LX7",
+      "cores": 2,
+      "threads": 2,
+      "clock": 2.4,
+      "boost_clock": 2.4,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 40,
+      "TDP": 0.5,
+      "memory_support": "SRAM, Flash",
+      "price_MSRP": 20,
+      "status": "Released",
+      "benchmarks": {
+        "coremark": 800
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "Nano",
+        "cache": "512KB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "wireless": "WiFi, Bluetooth",
+        "gpio": "14 digital, 8 analog"
+      },
+      "sources": [
+        "https://store.arduino.cc/products/arduino-nano-esp32"
+      ],
+      "description": "Arduino Nano form factor with ESP32-S3 connectivity"
+    },
+    {
+      "id": 17,
+      "name": "Raspberry Pi Pico W",
+      "vendor": "Raspberry Pi",
+      "category": "Dev Board",
+      "release_date": "2022-06-30",
+      "architecture": "ARM",
+      "cores": 2,
+      "threads": 2,
+      "clock": 1.33,
+      "boost_clock": 1.33,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 40,
+      "TDP": 0.5,
+      "memory_support": "SRAM, Flash",
+      "price_MSRP": 6,
+      "status": "Released",
+      "benchmarks": {
+        "coremark": 450
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "RP2040",
+        "cache": "264KB",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "wireless": "WiFi",
+        "gpio": "26 digital"
+      },
+      "sources": [
+        "https://www.raspberrypi.com/products/raspberry-pi-pico/"
+      ],
+      "description": "Wireless version of Raspberry Pi's microcontroller board"
+    },
+    {
+      "id": 18,
+      "name": "Microchip ATmega328P",
+      "vendor": "Microchip",
+      "category": "Microcontroller",
+      "release_date": "2009-01-01",
+      "architecture": "AVR",
+      "cores": 1,
+      "threads": 1,
+      "clock": 0.02,
+      "boost_clock": 0.02,
+      "GPU": "N/A",
+      "NPU": "N/A",
+      "process_node_nm": 350,
+      "TDP": 0.1,
+      "memory_support": "SRAM, Flash",
+      "price_MSRP": 2,
+      "status": "Released",
+      "benchmarks": {
+        "coremark": 8
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "DIP, QFN",
+        "cache": "N/A",
+        "pcie": "N/A",
+        "memory_channels": 1,
+        "gpio": "23 digital, 6 analog"
+      },
+      "sources": [
+        "https://www.microchip.com/en-us/product/atmega328p"
+      ],
+      "description": "Classic 8-bit microcontroller used in Arduino Uno"
+    },
+    {
+      "id": 19,
+      "name": "Google Coral Dev Board",
+      "vendor": "Google",
+      "category": "IoT Device",
+      "release_date": "2019-03-01",
+      "architecture": "ARM",
+      "cores": 4,
+      "threads": 4,
+      "clock": 1.5,
+      "boost_clock": 1.5,
+      "GPU": "GC7000 Lite",
+      "NPU": "Edge TPU",
+      "process_node_nm": 28,
+      "TDP": 5,
+      "memory_support": "LPDDR4-3200",
+      "price_MSRP": 130,
+      "status": "Released",
+      "benchmarks": {
+        "ai_performance": "4 TOPS"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "SOM",
+        "cache": "1MB",
+        "pcie": "2.0",
+        "memory_channels": 1,
+        "wireless": "WiFi, Bluetooth"
+      },
+      "sources": [
+        "https://coral.ai/products/dev-board"
+      ],
+      "description": "Development board with Edge TPU for AI and ML applications"
+    },
+    {
+      "id": 20,
+      "name": "NVIDIA Jetson Nano",
+      "vendor": "NVIDIA",
+      "category": "IoT Device",
+      "release_date": "2019-03-01",
+      "architecture": "ARM",
+      "cores": 4,
+      "threads": 4,
+      "clock": 1.43,
+      "boost_clock": 1.43,
+      "GPU": "128-core Maxwell",
+      "NPU": "N/A",
+      "process_node_nm": 20,
+      "TDP": 10,
+      "memory_support": "LPDDR4-1600",
+      "price_MSRP": 99,
+      "status": "Released",
+      "benchmarks": {
+        "ai_performance": "472 GFLOPS"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+      ],
+      "specs": {
+        "socket": "SOM",
+        "cache": "2MB",
+        "pcie": "2.0",
+        "memory_channels": 1,
+        "gpio": "40-pin"
+      },
+      "sources": [
+        "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/"
+      ],
+      "description": "AI computing device for embedded applications"
+    }
+  ],
+  "lastUpdated": "2025-10-24T00:00:00.000Z"
+}

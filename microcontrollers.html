@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcontrollers | TechCompare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-microchip logo-icon"></i>
+                        <span>TechCompare</span>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="desktop-processors.html">Desktop</a></li>
+                        <li><a href="laptop-processors.html">Laptop</a></li>
+                        <li><a href="mobile-processors.html">Mobile</a></li>
+                        <li><a href="microcontrollers.html" class="active">MCU</a></li>
+                        <li><a href="dev-boards.html">Dev Boards</a></li>
+                        <li><a href="iot-devices.html">IoT</a></li>
+                        <li><a href="index.html#compare">Compare</a></li>
+                        <li><a href="index.html#contribute">Contribute</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="index.html#compare" class="btn btn-outline compare-badge">
+                        <i class="fas fa-balance-scale"></i>
+                        Compare
+                        <span class="badge" id="compareCount">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Hero -->
+    <section class="category-hero" style="background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%); color: var(--text-primary);">
+        <div class="container">
+            <div class="category-hero-content">
+                <nav class="breadcrumb">
+                    <a href="index.html" style="color: var(--text-secondary);">Home</a>
+                    <i class="fas fa-chevron-right" style="color: var(--text-tertiary);"></i>
+                    <span style="color: var(--text-primary);">Microcontrollers</span>
+                </nav>
+                <h1>Microcontrollers</h1>
+                <p style="color: var(--text-secondary);">Embedded processors for IoT devices, automation systems, robotics, and electronic projects. Compare specifications, power consumption, and peripheral support for embedded applications.</p>
+                <div class="category-stats">
+                    <div class="category-stat">
+                        <span class="stat-number" id="categoryTotal" style="color: var(--primary);">0</span>
+                        <span class="stat-label" style="color: var(--text-secondary);">Total Products</span>
+                    </div>
+                    <div class="category-stat">
+                        <span class="stat-number" id="categoryRecent" style="color: var(--primary);">0</span>
+                        <span class="stat-label" style="color: var(--text-secondary);">Recently Added</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rest of the file remains exactly the same -->
+    <!-- Filters Section -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-header">
+                <h2>Filter Products</h2>
+                <div class="filter-actions">
+                    <button class="btn btn-outline" id="clearFilters">
+                        <i class="fas fa-times"></i>
+                        Clear Filters
+                    </button>
+                </div>
+            </div>
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label for="vendorFilter">Vendor</label>
+                    <select id="vendorFilter" class="form-control">
+                        <option value="">All Vendors</option>
+                        <option value="ESP32">ESP32</option>
+                        <option value="Microchip">Microchip</option>
+                        <option value="STMicroelectronics">STMicroelectronics</option>
+                        <option value="Texas Instruments">Texas Instruments</option>
+                        <option value="NXP">NXP</option>
+                        <option value="Raspberry Pi">Raspberry Pi</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="architectureFilter">Architecture</label>
+                    <select id="architectureFilter" class="form-control">
+                        <option value="">All Architectures</option>
+                        <option value="XTensa LX7">XTensa LX7</option>
+                        <option value="RISC-V">RISC-V</option>
+                        <option value="ARM Cortex-M">ARM Cortex-M</option>
+                        <option value="AVR">AVR</option>
+                        <option value="PIC">PIC</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="statusFilter">Status</label>
+                    <select id="statusFilter" class="form-control">
+                        <option value="">All Status</option>
+                        <option value="Released">Released</option>
+                        <option value="Upcoming">Upcoming</option>
+                        <option value="Discontinued">Discontinued</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="coresFilter">Min Cores</label>
+                    <select id="coresFilter" class="form-control">
+                        <option value="">Any Cores</option>
+                        <option value="1">1+ Cores</option>
+                        <option value="2">2+ Cores</option>
+                        <option value="4">4+ Cores</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="clockFilter">Min Clock Speed</label>
+                    <select id="clockFilter" class="form-control">
+                        <option value="">Any Clock</option>
+                        <option value="0.016">16+ MHz</option>
+                        <option value="0.048">48+ MHz</option>
+                        <option value="0.1">100+ MHz</option>
+                        <option value="1.0">1.0+ GHz</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="searchFilter">Search</label>
+                    <input type="text" id="searchFilter" class="form-control" placeholder="Search microcontrollers...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-header">
+                <h2 id="productsCount">All Microcontrollers</h2>
+                <div class="sort-options">
+                    <label for="sortSelect">Sort by:</label>
+                    <select id="sortSelect" class="form-control">
+                        <option value="name">Name (A-Z)</option>
+                        <option value="name_desc">Name (Z-A)</option>
+                        <option value="cores">Cores (Low to High)</option>
+                        <option value="cores_desc">Cores (High to Low)</option>
+                        <option value="clock">Clock Speed (Low to High)</option>
+                        <option value="clock_desc">Clock Speed (High to Low)</option>
+                        <option value="price">Price (Low to High)</option>
+                        <option value="price_desc">Price (High to Low)</option>
+                        <option value="release">Release Date (Newest)</option>
+                        <option value="release_old">Release Date (Oldest)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="loadingState" class="loading-state">
+                <i class="fas fa-spinner fa-spin"></i>
+                <p>Loading microcontrollers...</p>
+            </div>
+
+            <div class="product-grid" id="productsGrid">
+                <!-- Products will be loaded here -->
+            </div>
+
+            <div id="noProducts" class="empty-state hidden">
+                <i class="fas fa-search" style="font-size: 3rem; color: var(--text-tertiary); margin-bottom: 1rem;"></i>
+                <h3>No products found</h3>
+                <p>Try adjusting your filters or search terms</p>
+                <button class="btn btn-primary" id="resetFilters">
+                    <i class="fas fa-refresh"></i>
+                    Reset Filters
+                </button>
+            </div>
+
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <i class="fas fa-microchip logo-icon"></i>
+                            <span>TechCompare</span>
+                        </div>
+                        <p>Your trusted source for processor comparisons and tech insights. Helping developers and enthusiasts make informed decisions since 2024.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-links-grid">
+                        <div class="footer-column">
+                            <h3>Categories</h3>
+                            <ul class="footer-links">
+                                <li><a href="desktop-processors.html">Desktop Processors</a></li>
+                                <li><a href="laptop-processors.html">Laptop Processors</a></li>
+                                <li><a href="mobile-processors.html">Mobile Processors</a></li>
+                                <li><a href="microcontrollers.html">Microcontrollers</a></li>
+                                <li><a href="dev-boards.html">Development Boards</a></li>
+                                <li><a href="iot-devices.html">IoT Devices</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Resources</h3>
+                            <ul class="footer-links">
+                                <li><a href="index.html#compare">Comparison Tool</a></li>
+                                <li><a href="index.html#contribute">Contribute Data</a></li>
+                                <li><a href="#">API Documentation</a></li>
+                                <li><a href="#">Data Sources</a></li>
+                                <li><a href="#">Benchmark Guide</a></li>
+                                <li><a href="#">Buying Guide</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Support</h3>
+                            <ul class="footer-links">
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Community Forum</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Report Issue</a></li>
+                                <li><a href="#">Feature Request</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechCompare. All rights reserved. Data updated through 24-10-2025.</p>
+                <div class="footer-meta">
+                    <span>Made with <i class="fas fa-heart" style="color: #ef4444;"></i> for the developer community</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/api.js"></script>
+    <script src="js/category-page.js"></script>
+</body>
+</html>
